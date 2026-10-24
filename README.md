@@ -86,6 +86,12 @@ npm run build -- --base=/sadari-game/
 
 과일 이미지 경로도 `import.meta.env.BASE_URL`을 사용해 해당 경로를 따릅니다.
 
+### GitHub Pages
+
+[사다리타기 실행하기](https://bearholmes.github.io/sadari-game/)
+
+`main` 브랜치에 푸시하면 [배포 워크플로](.github/workflows/deploy.yml)가 의존성 설치, 테스트, 빌드를 거쳐 GitHub Pages에 자동 배포합니다. 배포 빌드에만 `/sadari-game/` 경로를 적용하므로 로컬 개발 서버는 기본 경로를 사용합니다.
+
 ## 기술 구성
 
 | 영역 | 구성 |
